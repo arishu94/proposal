@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Proposal</title>
+</head>
+<body>
+    <script>
+        let answer = prompt("Do you love me? (yes/no):");
+        if (answer) {
+            answer = answer.trim().toLowerCase();
+            if (answer === "yes") {
+                alert("🥰 Aww love you too <3");
+            } else if (answer === "no") {
+                alert("Oh no! 😢 I'll keep trying :)");
+            } else {
+                alert("Please answer with 'yes' or 'no'.");
+            }
+        } else {
+            alert("Please provide an answer.");
+        }
+    </script>
+</body>
+</html>
